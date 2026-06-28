@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Service Portal</title>
+    <link rel="stylesheet" href="labtask2.css">
+</head>
+<body>
+
+<header>
+    <h1>Student Service Portal</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
+
+<main>
+    <section>
+        <h2>Submit Your Request</h2>
+
+        <form>
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="id">Student ID</label>
+            <input type="text" id="id" name="studentId" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="service">Service Type</label>
+            <select id="service" name="service">
+                <option>Transcript Request</option>
+                <option>ID Card Issue</option>
+                <option>General Inquiry</option>
+            </select>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5"></textarea>
+
+            <input type="submit" value="Submit Request">
+        </form>
+    </section>
+
+    <aside>
+        <h3>Student Notice</h3>
+        <p>Please provide accurate information while submitting your request.</p>
+    </aside>
+</main>
+
+<footer>
+    <p>&copy; 2026 Student Affairs Department</p>
+</footer>
+
+</body>
+</html>
